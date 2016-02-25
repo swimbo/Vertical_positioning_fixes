@@ -1,23 +1,103 @@
 /* ADD YOUR STYLES HERE */
+/*6 starts here*/
 .horizontal-boxes1 img{
   padding: 34px;
 }
 
-.horizontal-boxes2 img,p,ol{
+.horizontal-boxes2 img,.horizontal-boxes2 p,.horizontal-boxes2 ol{
   display: inline-block;
   padding: 26px;
   vertical-align: top;
 }
-
+/*7 starts here*/
 .vertical-boxes1 img{
-padding-top:55px;
-padding-bottom:50px;
+padding-top:75px;
+padding-bottom:70px;
 }
 
-.vertical-boxes2 img{
+.vertical-boxes2{
 display: inline-block;
+padding-top: 60px;
 }
 
-.vertical-boxes2 p,ol{
-display: block;
+/*8 starts here*/
+.horizontal-list li{
+display:inline;
+float:left;
 }
+
+/*9 starts here*/
+.btn{
+  text-decoration: none;
+  display: inline-block;
+  color: #FFF;
+  background: #ED828A;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: none;
+}
+.btn-large{
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.btn-med{
+  padding: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+  }
+.btn-small{
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+}
+/*10 starts here*/
+.nav-bar{
+  display: inline-block;
+  background: #ED828A;
+  padding: 10px;
+  border-radius: 5px;
+}
+.nav-bar li{
+  display:inline-block;
+}
+
+.nav-bar a{
+  display:inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.nav-bar a:hover{
+  color: blue;
+}
+/*11 starts here*/
+.pagination, .pagination a{
+  color: #ED828A;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 10px;
+
+}
+.pagination li{
+  display: inline-block;
+  border-bottom: 1px solid #ED828A;
+  padding-bottom: 5px;
+}
+
+.pagination li:last-child, .pagination li:first-child{
+  border-bottom: 0px;
+  }
+.pagination span{
+  color: #acacac;
+  }
+.pagination li:nth-child(5n) {
+    border-bottom-color: #acacac;
+    width: 25px;
+    text-align: center;
+    }
