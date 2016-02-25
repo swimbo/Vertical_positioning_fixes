@@ -1,0 +1,23 @@
+/* ADD YOUR STYLES HERE */
+.horizontal-boxes1 img{
+  padding: 34px;
+}
+
+.horizontal-boxes2 img,p,ol{
+  display: inline-block;
+  padding: 26px;
+  vertical-align: top;
+}
+
+.vertical-boxes1 img{
+padding-top:55px;
+padding-bottom:50px;
+}
+
+.vertical-boxes2 img{
+display: inline-block;
+}
+
+.vertical-boxes2 p,ol{
+display: block;
+}
