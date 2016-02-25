@@ -101,3 +101,21 @@ float:left;
     width: 25px;
     text-align: center;
     }
+/*12 starts here*/
+.floated-image{
+  float:left;
+  padding-right: 10px;
+}
+.floated-image img:last-child{
+  padding-left:40px;
+  margin-left: 40px;
+}
+.parent-comment p{
+  padding-bottom:40px;
+}
+.child-comment{
+  padding-bottom: 40px;
+}
+.parent-comment-w-children{
+  overflow: hidden;
+}
