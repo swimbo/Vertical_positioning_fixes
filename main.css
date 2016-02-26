@@ -119,3 +119,34 @@ float:left;
 .parent-comment-w-children{
   overflow: hidden;
 }
+/*13 starts here*/
+.tabs{
+  padding:0 0 0 5px;
+
+}
+.active,.singleTab{
+  position: relative;
+  display:inline-block;
+  border: solid gray;
+  border-width: 1px 1px 0 1px;
+  padding: 2px 5px 0px 5px;
+  margin: 2px 5px 0px 2px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.tabs a{
+  text-decoration: none;
+  color: blue;
+}
+
+.tab-content{
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px;
+
+
+}
+.active {
+  border-bottom: 1px solid white;
+  margin: 2px 5px -1px 2px;
+}
